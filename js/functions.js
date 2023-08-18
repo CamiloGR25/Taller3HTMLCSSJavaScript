@@ -5,7 +5,8 @@ $("#nuevoLibro").click(function() {
     var codigo = $("#codigo").val();
     var año = $("#año").val();
     var cantidad = $("#cantidad").val();
+    var costo= $("#costo").val();
     //agrega un nuevo registro a la tabla, después del último tr:
-    $('#libro tr:last').after('<tr><td>' + nombre + '</td><td>' + autor + '</td><td>' + genero +'</td><td>' + codigo + '</td><td>' +año+'</td><td>'+ cantidad +'</td></tr>'); 
+    $('#libro tr:last').after('<tr><td>' + nombre + '</td><td>' + autor + '</td><td>' + genero +'</td><td>' + codigo + '</td><td>' +año+'</td><td>'+ cantidad +'</td><td>' + costo + '</td></tr>'); 
     $('#nuevoLibroModal').modal('toggle'); //cierra el modal
 });
