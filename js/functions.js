@@ -15,5 +15,15 @@ $("#nuevoLibro").click(function() {
 });
 
 $("#limpiar").click(function() {
-    document.getElementById("#nombre").value= '';
+    document.getElementById("nombre").value= '';
+    document.getElementById("autor").value= '';
+    document.getElementById("genero").value= '';
+    document.getElementById("codigo").value= '';
+    document.getElementById("año").value= '';
+    document.getElementById("cantidad").value= '';
+    document.getElementById("costo").value= '';
+    document.getElementById("editorial").value= '';
+    document.getElementById("descuento").value= '';
+
+
 });
